@@ -15,7 +15,7 @@
 #-Superuser     Whether the owner and primary user of this machine will be an admin/superuser or a standard user i.e. is this my computer, or my kids computer?
 
 
-[cmdletbinding(DefaultParameterSetName="HaysSetup")]
+[cmdletbinding(DefaultParameterSetName="provmach")]
 param 
 (
     [Parameter(ParameterSetName="FreshInstall")]
