@@ -93,7 +93,6 @@ Function DisableServices
 	$ManualServices = @(
 		"HomeGroupProvider"                            
 		"HomeGroupListener"
-		"DPS"
 		#"dmwappushservice"                             # WAP Push Message Routing Service NOTE Sysprep w/ Generalize WILL FAIL if you disable the DmwApPushService. Commented out by default.
 		"WbioSrvc"                                     # Windows Biometric Service (required for Fingerprint reader / facial detection)
 		#"wscsvc"                                       # Windows Security Center Service
@@ -102,7 +101,6 @@ Function DisableServices
 		"XblGameSave"                                  # Xbox Live Game Save Service
 		"XboxNetApiSvc"                                # Xbox Live Networking Service
 		"XboxGipSvc"                                   #Disables Xbox Accessory Management Service
-		"WlanSvc"                                      # WLAN AutoConfig
 		#"NetTcpPortSharing"                            # Net.Tcp Port Sharing Service
 		"SharedAccess"                                 # Internet Connection Sharing (ICS)
 		"PcaSvc"                                       #Disables Program Compatibility Assistant Service
